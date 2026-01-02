@@ -21,7 +21,7 @@ import {
     Users,
     Zap,
 } from 'lucide-react';
-
+ 
 
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
 import { FaYoutube } from "react-icons/fa";
@@ -34,6 +34,8 @@ import websecondhand from "../assets/images/WebSecondhand.png";
 import web3 from "../assets/images/web3.png";
 import web2 from "../assets/images/web2.png";
 import web1 from "../assets/images/web1.png";
+import web7 from "../assets/images/web7.png";
+
 // Skills
 export const skills_category = [
     {
@@ -206,7 +208,7 @@ export const projects = [
         id: 9,
         title: "Cửa hàng đặt đồ ăn & đồ uống Việt tại Slovakia",
         description: "Thiết kế website bán đồ ăn uống cho VIETTAFOOD với bố cục rõ ràng, giao diện hiện đại và tốc độ tải nhanh, giúp thương hiệu thể hiện sự chuyên nghiệp và thu hút khách hàng tốt hơn.",
-        image: web1,
+        image: web7,
         tags: ["Wordpres"],
         liveUser: "https://viettrektravel.com/",
         githubUrl: "#",
