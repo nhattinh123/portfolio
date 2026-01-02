@@ -126,7 +126,7 @@ const HeroSection = () => {
                                 className={`text-sm uppercase tracking-widest ${isDarkMode ? "text-gray-500" : "text-gray-600"
                                     } mb-4`}
                             >
-                                Front-End Developer
+                                Full-Stack Web & App Developer
                             </motion.div>
 
                             <motion.h1
@@ -136,13 +136,13 @@ const HeroSection = () => {
                                 <span
                                     className={`${isDarkMode ? "text-white" : "text-gray-900"}`}
                                 >
-                                    Mỗi dòng code là
+                                    Tôi giúp cá nhân và doanh nghiệp xây dựng
                                 </span>{" "}
                                 <span className='text-blue-500 font-medium ml-2'>
-                                    một phần trong câu chuyện của tôi
+                                  website và ứng dụng (web / mobile)
                                 </span>{" "}
                                 <span className={isDarkMode ? "text-white" : "text-gray-900"}>
-                                    về sự sáng tạo & kiên trì
+                                    hiện đại, ổn định và dễ mở rộng.
                                 </span>
                             </motion.h1>
 
@@ -151,7 +151,7 @@ const HeroSection = () => {
                                 className={`text-base md:text-lg text-justify ${isDarkMode ? "text-gray-400" : "text-gray-600"
                                     } mb-4 max-w-xl mx-auto font-light leading-relaxed`}
                             >
-                                Tôi là một Front-End Developer luôn tìm kiếm cách để kể chuyện bằng trải nghiệm người dùng. Từ những ý tưởng thô sơ, tôi biến chúng thành sản phẩm sống động – nơi công nghệ gặp gỡ cảm xúc.
+                                Tôi giúp doanh nghiệp biến ý tưởng thành website & ứng dụng hoàn chỉnh, được thiết kế để hoạt động hiệu quả và phát triển bền vững theo thời gian.
                             </motion.p>
 
                             {/* Button - Mobile*/}
@@ -170,7 +170,7 @@ const HeroSection = () => {
                                 <motion.button
                                     whileHover={{ y: -2 }}
                                     whileTap={{ scale: 0.98 }}
-                                    onClick={() => scrollToSection("contact")}
+                                    onClick={() => window.open("https://zalo.me/0833456692", "_blank")}
                                     className={`border ${isDarkMode ? "border-gray-700 hover:border-gray-600 text-gray-300" : "border-gray-300 hover:border-gray-400 text-gray-700"
                                         } px-8 py-3 rounded-full text-sm uppercase tracking-wider font-medium transition-all duration-300`}
                                 >

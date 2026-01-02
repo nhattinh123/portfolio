@@ -82,13 +82,13 @@ const AboutSections = () => {
                 className={`text-lg leading-relaxed mb-6 text-justify ${isDarkMode ? "text-gray-300" : "text-gray-700"
                   }`}
               >
-                Tôi là Kỹ sư ngành Kỹ thuật phần mềm, vừa tốt nghiệp tại Đại học Nguyễn Tất Thành với xếp loại Giỏi. Trong suốt quá trình học tập, tôi đã không ngừng trau dồi kỹ năng lập trình và phát triển giao diện người dùng, đặc biệt yêu thích các công nghệ như ReactJS, VueJS và ASP.Net.
+                Tôi là một người yêu công nghệ và đam mê xây dựng sản phẩm số. Tôi đến với lập trình từ sự tò mò, sau đó dần biến nó thành thói quen, kỹ năng và mục tiêu phát triển lâu dài. Với tôi, viết code không chỉ là tạo ra chức năng, mà còn là cách giải quyết vấn đề và tạo ra giá trị thực tế.
               </p>
               <p
                 className={`text-base leading-relaxed text-justify ${isDarkMode ? "text-gray-400" : "text-gray-600"
                   }`}
               >
-                Tôi đã thực hiện một số dự án cá nhân, tham gia các cuộc thi học thuật chuyên ngành và trải qua kỳ thực tập tại doanh nghiệp. Tôi có khả năng học hỏi nhanh, tư duy logic tốt và luôn mong muốn phát triển sự nghiệp theo hướng Frontend Developer chuyên nghiệp.
+                Trong quá trình phát triển bản thân, tôi tập trung vào việc xây dựng các sản phẩm có trải nghiệm người dùng tốt, giao diện rõ ràng và hiệu suất ổn định. Tôi yêu thích làm việc với ReactJS, VueJS và đồng thời đã tìm hiểu, làm quen và triển khai sản phẩm trên nền tảng WordPress (WP), từ xây dựng giao diện, tùy chỉnh theme đến tối ưu nội dung và hiệu suất website.
               </p>
             </motion.div>
 
