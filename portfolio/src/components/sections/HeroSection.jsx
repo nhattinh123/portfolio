@@ -187,7 +187,7 @@ const HeroSection = () => {
                                     { icon: FiGithub, href: "#", color: "hover:text-gray-400" },
                                     { icon: FiLinkedin, href: "#", color: "hover:text-blue-400" },
                                     { icon: Mail, href: "#", color: "hover:text-green-400" },
-                                    { icon: FaYoutube, href: "https://www.youtube.com/@huyhoang3499", color: "hover:text-red-500" },
+                                    { icon: FaYoutube, href: "#", color: "hover:text-red-500" },
                                 ].map((social, index) => (
                                     <motion.a
                                         key={index}
